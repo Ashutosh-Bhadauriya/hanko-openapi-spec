@@ -222,13 +222,13 @@ paths:
           name: start_time
           schema:
             type: string
-            example: 2022-09-12T12:48:48Z
+            example: '2022-09-12T12:48:48Z'
           description: Date and time from which the logs are included
         - in: query
           name: end_time
           schema:
             type: string
-            example: 2022-09-15T12:48:48Z
+            example: '2022-09-15T12:48:48Z'
           description: Date and time to which the logs are included
         - in: query
           name: actor_user_id
@@ -252,7 +252,7 @@ paths:
                 format: ipv4
               - type: string
                 format: ipv6
-            example: 127.0.0.1
+            example: "127.0.0.1"
           description: Only audit logs with the specified ip address are included
         - in: query
           name: q
